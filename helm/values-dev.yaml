@@ -4,5 +4,5 @@ deployment:
   imageURL: 637423540068.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/frontend
 hpa:
   cpuUtilization: 15
-tgb:
-  arn: arn:aws:elasticloadbalancing:us-east-1:315069654700:targetgroup/roboshop-dev/5b208a7c17721cb9 #your target group binding
+tgb: #target group binding
+  arn: arn:aws:elasticloadbalancing:us-east-1:315069654700:targetgroup/roboshop-dev/5b208a7c17721cb9 #your target group ARN
