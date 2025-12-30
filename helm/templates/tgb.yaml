@@ -5,7 +5,7 @@ metadata:
   namespace: roboshop
 spec:
   serviceRef:
-    name: frontend # route traffic to the awesome-service
+    name: frontend # route traffic to the frontend-service
     port: 80
   targetGroupARN: {{ .Values.tgb.arn }}
   targetType: ip
